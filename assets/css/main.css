@@ -1159,7 +1159,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 			background-image: url("../../images/math.png");
-			opacity: 0.3;
+			opacity: 0.6;
 
 			background-position: center;
 			background-size: cover;
@@ -1660,4 +1660,8 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
+		}
+
+		.fullpage {
+			background-color: #1b1f22;
 		}
